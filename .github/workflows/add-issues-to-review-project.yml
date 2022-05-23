@@ -1,0 +1,16 @@
+name: Add issues to review project
+
+on:
+  issues:
+    types:
+      - opened
+
+jobs:
+  add-to-project:
+    runs-on: ubuntu-latest
+    needs: [get-user-type]
+    steps:
+      - uses: actions/add-to-project@main
+        with:
+          project-url: https://github.com/orgs/${{ github.repository_owner }}/projects/30
+          github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
