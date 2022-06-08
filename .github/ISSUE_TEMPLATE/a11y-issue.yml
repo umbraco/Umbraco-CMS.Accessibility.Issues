@@ -1,0 +1,37 @@
+name: "📖 Umbraco HQ / Accessibility team members only: report an A11Y issue"
+description: This form is intended to be used by the product team.
+body:
+  - type: textarea
+    id: steps-to-replicate
+    attributes:
+      label: Steps to replicate
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: Issue
+      description: What is the problem that needs to be fixed?
+    validations:
+      required: true
+  - type: textarea
+    id: why-it-matters
+    attributes:
+      label: Why it matters
+      description: What is the effect of the proposed fix?
+    validations:
+      required: true
+  - type: textarea
+    id: how-to-fix
+    attributes:
+      label: How to fix
+      description: Describe the way we expect this to be fixed.
+    validations:
+      required: true
+  - type: input
+    id: w3-reference
+    attributes:
+      label: W3 reference
+      description: Link to w3.org with related information.
+    validations:
+      required: true
