@@ -13,7 +13,9 @@ There are a number of ways you can get involved with helping the Umbraco Accessi
 - Testing the latest version of Umbraco for issues (When we are able to, we carry out a full accessibility audit of the backoffice too).
 - Get involved with discussions around, potentially, features and fixes for accessibility issues.
 
-You can find accessibility-related issues that need attention in the [Accessibility Team Issues Board](https://github.com/umbraco/Umbraco-CMS.Accessibility.Issues/issues). 
+You can find accessibility-related issues that need attention on the [Accessibility Team Issues](https://github.com/umbraco/Umbraco-CMS.Accessibility.Issues/issues) page.
+
+You can also visit our [issue status board](https://github.com/orgs/umbraco/projects/30/views/1) to see the status of each issue
 
 ## Membership
 
